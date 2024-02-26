@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/duckyshine04/Documents/projects/cpp-projects/opengl-uni-course/build",
+  "command": "/usr/bin/c++  -I/home/duckyshine04/Documents/projects/cpp-projects/opengl-uni-course/include -std=gnu++17 -o CMakeFiles/opengl-uni-course.dir/src/main.cpp.o -c /home/duckyshine04/Documents/projects/cpp-projects/opengl-uni-course/src/main.cpp",
+  "file": "/home/duckyshine04/Documents/projects/cpp-projects/opengl-uni-course/src/main.cpp"
+}
+]
