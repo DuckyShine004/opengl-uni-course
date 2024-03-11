@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl-uni-course.dir/build.make CMakeFiles/opengl-uni-course.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/shapes.o: src/shapes.cpp.o
+.PHONY : src/shapes.o
+
+# target to build an object file
+src/shapes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl-uni-course.dir/build.make CMakeFiles/opengl-uni-course.dir/src/shapes.cpp.o
+.PHONY : src/shapes.cpp.o
+
+src/shapes.i: src/shapes.cpp.i
+.PHONY : src/shapes.i
+
+# target to preprocess a source file
+src/shapes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl-uni-course.dir/build.make CMakeFiles/opengl-uni-course.dir/src/shapes.cpp.i
+.PHONY : src/shapes.cpp.i
+
+src/shapes.s: src/shapes.cpp.s
+.PHONY : src/shapes.s
+
+# target to generate assembly for a file
+src/shapes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/opengl-uni-course.dir/build.make CMakeFiles/opengl-uni-course.dir/src/shapes.cpp.s
+.PHONY : src/shapes.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/shapes.o"
+	@echo "... src/shapes.i"
+	@echo "... src/shapes.s"
 .PHONY : help
 
 

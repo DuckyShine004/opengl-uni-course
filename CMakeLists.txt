@@ -12,7 +12,7 @@ include_directories(include)
 include_directories(${OPENGL_INCLUDE_DIRS} ${GLUT_INCLUDE_DIRS})
 
 # Add source files
-set(SOURCE_FILES src/main.cpp)
+set(SOURCE_FILES src/main.cpp src/shapes.cpp)
 
 # Define the executable
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})

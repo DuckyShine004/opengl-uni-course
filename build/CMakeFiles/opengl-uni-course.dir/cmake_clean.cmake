@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/opengl-uni-course.dir/src/main.cpp.o"
   "CMakeFiles/opengl-uni-course.dir/src/main.cpp.o.d"
+  "CMakeFiles/opengl-uni-course.dir/src/shapes.cpp.o"
+  "CMakeFiles/opengl-uni-course.dir/src/shapes.cpp.o.d"
   "opengl-uni-course"
   "opengl-uni-course.pdb"
 )
